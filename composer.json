@@ -1,0 +1,16 @@
+{
+  "name": "spogon/projekt",
+  "autoload": {
+      "psr-0": { "": "src/" }
+  },
+  "require": {
+      "php": ">=5.3.3",
+      "kriswallsmith/buzz": "dev-master"
+  },
+  "repositories": [
+    {
+        "type": "vcs",
+    	"url": "https://github.com/kriswallsmith/buzz"
+	}
+]
+}
